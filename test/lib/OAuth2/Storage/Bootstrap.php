@@ -326,7 +326,6 @@ class Bootstrap
         $pdo->prepare($sql)->execute(array('oauth_test_client', 'test_subject', $this->getTestPublicKey()));
     }
 
-
     public function getSqliteDir()
     {
         return $this->configDir. '/test.sqlite';
